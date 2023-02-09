@@ -7,8 +7,8 @@ public class Movie {
     private String Genre;
 
     //constructor
-    public Movie(String MovieTitle, int runningTime, String Genre){
-        this.MovieTitle = MovieTitle;
+    public Movie(String title, int runningTime, String Genre){
+        MovieTitle = title;
         this.runningTime = runningTime;
         this.Genre = Genre;
     }
