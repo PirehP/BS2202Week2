@@ -10,12 +10,11 @@ public class Program {
         Movie movie2 = new Movie("Avatar2", 300,"SciFi");
 
         System.out.println(InceptionMovie.getMovieTitle());
-
-        InceptionMovie.setMovieTitle("Inception Part 2");
-        System.out.println(InceptionMovie.getMovieTitle());
-        InceptionMovie.PlayMovie();
-
         System.out.println(movie2.getMovieTitle());
+
+//        InceptionMovie.setMovieTitle("Inception Part 2");
+//        InceptionMovie.PlayMovie();
+
 
         //Array Demo
         String[] studentRegister = {"", "", ""};
