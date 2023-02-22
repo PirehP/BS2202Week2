@@ -6,15 +6,17 @@ import java.util.ArrayList;
 public class Program {
     public static void main(String[] args)
     {
+
+    }
+
+    public void Week3and4Main()
+    {
+
         Movie InceptionMovie = new Movie("Inception", 200, "SciFi");
         Movie movie2 = new Movie("Avatar2", 300,"SciFi");
 
         System.out.println(InceptionMovie.getMovieTitle());
         System.out.println(movie2.getMovieTitle());
-
-//        InceptionMovie.setMovieTitle("Inception Part 2");
-//        InceptionMovie.PlayMovie();
-
 
         //Array Demo
         String[] studentRegister = {"", "", ""};
@@ -48,6 +50,5 @@ public class Program {
         System.out.println("Below is the list of movies that are played in this cinema");
         cinemaMovies.printAllMoviesintheList();
         cinemaMovies.SearchMovie("Inception Part 2");
-
     }
 }
